@@ -1,0 +1,18 @@
+<nav class="w-full flex md:justify-center justify-between items-center p-4">
+  <div class="md:flex-[0.5] flex-initial justify-center items-center">
+    <img src="../../../assets/images/logo.png" alt="Logo" class="w-32 cursor-pointer">
+  </div>
+  <ul class="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
+    <li *ngFor="let item of navItems" class="mx-4 cursor-pointer {{item}}">
+      {{item}}
+    </li>
+    <button class="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
+      Login
+    </button>
+  </ul>
+
+  <!-- Todo: Add mobile Navgiation -->
+  <!-- <div class="flex relative">
+
+  </div> -->
+</nav>
